@@ -1,27 +1,72 @@
-# AppointmentApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
-## Development server
+**Structure of Angular Application**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```
+(a)SRC -->where i put in my components and add my application logic.
 
-## Code scaffolding
+(b)Angular.json -->Where i make specific configurations through which i wish my application to run on.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+(c)Package.json -->It contains and carries all the dependencies for my application.
 
-## Build
+(d)Other things are things that are typeScript Speicific.
+  (Remember Angular runs on top of TypeScript)
+  
+```
+**Component**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+A compoment is the most basic part in an angular application.
 
-## Running unit tests
+it contains of three major parts:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  (i) the selector
+  
+  (ii) template URL -->Its html part
+  
+  (A component shows whatever is inside app-component.html)
+  
+  (iii)Style URL(s) --->The styling Part of that 
+   Particular Component.
+   
+ (A component looks like what is specified in app.component.css)
 
-## Running end-to-end tests
+It also has a part where i have my Javascript, which
+can take in properties & javascript Objects, 
+which i can use to render to my template.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
 
-## Further help
+**Component Diagram**
+![Basic Component Diagram](01_Basic_Component.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+**One way binding**
+
+```
+Anything dynamic that needs to be displayed inside our html
+in the angular component can be displayed and passed to that
+component as a property.
+
+Data Binding in Angular is a very Key Concept.
+
+One way DataBinding is One Way of displaying our Property into
+the HTML template.
+
+Displaying data to our Angular Template is what we call biding.
+
+{{message}}
+ 
+Mostly used when i just want to display and thats It.
+
+Double curly brances {{}}is the interpolation syntax that is used
+to bind data to the template.
+
+```
+
+**Notes By**
+
+```
+MbuguaCaleb
+
+```
