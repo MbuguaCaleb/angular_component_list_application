@@ -62,8 +62,59 @@ Mostly used when i just want to display and thats It.
 Double curly brances {{}}is the interpolation syntax that is used
 to bind data to the template.
 
+From the component to the Template
+
+Two way data binding works Both Ways
+
 ```
 
+**Angular Component**
+
+```
+we can be able to create a basic angular component 
+from the CLI as follows,
+
+ng g component appointment-list
+
+```
+
+**TypeScript**
+
+```
+TypeScript is a superset of JavaScript that adds static Types.
+
+Ways of instantiating variables in typeScript,
+
+var a:number
+var a: string
+var a:boolean
+var app: AppComponent = new AppComponent();
+
+var a: type[] -->typeArray
+items:string[] =["one","two"]
+var a:number[]
+var a: string[]
+var a:boolean[]
+var app: AppComponent[]
+N/B
+
+this is mandatory in methods and variables in typeScript
+when you want to access them within the Class,
+
+```
+**Models and Interfaces**
+
+```
+Anyform of data which i wish to represent in my 
+application can be represented in form of a Model.
+
+If i need to do any Operations eg getting it
+an interface is best suited, since it can allow for multiple
+implementations.
+
+ //Interface is a Contract of How an Object specifically has to look like.
+ It is not Optional
+```
 **Notes By**
 
 ```
